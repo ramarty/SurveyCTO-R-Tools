@@ -1,4 +1,5 @@
 # Add Labels to Dataset
+library(haven)
 
 apply_labels <- function(data, surveycto_filepath){
   # Applies labels to dataset from SurveyCTO.  
