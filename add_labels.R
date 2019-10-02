@@ -1,5 +1,6 @@
 # Add Labels to Dataset
 library(haven)
+library(readxl)
 
 apply_labels <- function(data, surveycto_filepath){
   # Applies labels to dataset from SurveyCTO.  
