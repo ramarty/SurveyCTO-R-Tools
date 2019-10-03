@@ -8,7 +8,7 @@ __apply_label__: Add labels to dataset from SurveyCTO. For select_one variables,
 # Load function and necessary packages
 source("https://raw.githubusercontent.com/ramarty/SurveyCTO-R-Tools/master/add_labels.R")
 library(haven)
-library(read_excel)
+library(readxl)
 library(dplyr)
 
 data <- read.csv("~/Desktop/dataset.csv")
